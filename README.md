@@ -70,3 +70,5 @@ This is an instance method of objects of `KeyValueDatabase` class. This method d
 ## Other information
 1. The maximum size a database can be is 1GB.
 2. The database will be stored with `.kvd` extension.
+3. This library is dependent on the `pympler` library. The `pympler` library is installed at the root of this repo, so there is no need it install it separately via pip. 
+4. This library is also dependent on `os`, `sys`, `io`, `datetime` and `json` libraries. These libraries will be pre-installed in the official Python distribution, so there is no need to install any external libraries to use this library.
